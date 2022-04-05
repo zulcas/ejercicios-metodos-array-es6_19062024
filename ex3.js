@@ -50,7 +50,7 @@ let pacientesAvisos; // TODO
 
 // E) Usa la función map para crear tantos tags <li> como pacientes hay en el array
 let pacientesLista; // TODO
-// console.log("Apartado E: ", pacientesAvisos);
+// console.log("Apartado E: ", pacientesLista);
 
 /**
  * ['<li>Pedro</li>', '<li>María</li>']

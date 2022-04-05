@@ -6,7 +6,7 @@
 let puedesPasar = true;
 edad = 17;
 
-if (edad >= 18) {
+if (edad < 18) {
     let puedesPasar = false;
 }
 
