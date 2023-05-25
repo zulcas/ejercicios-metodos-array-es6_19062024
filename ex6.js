@@ -1,6 +1,19 @@
 // Usa el método .filter para realizar esta kata: https://www.codewars.com/kata/5769b3802ae6f8e4890009d2
 
 // Ten en cuenta que la mayoría de métodos de array disponen de un segundo parámetro en la función de callback, que indica el índice sobre la posición en la se está iterando en ese momento
+/** 
+Ejecuta este código en otro fichero e intenta entender que estas viendo por consola:
+
+let arr = [2, 3, 5, 7]
+
+arr.map(function(element, index, array){
+    console.log(element);
+    console.log(index);
+    console.log(array);
+    return element;
+});
+
+*/
 
 function removeEveryOther(arr) {
     //your code here
