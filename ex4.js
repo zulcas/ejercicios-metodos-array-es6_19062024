@@ -3,7 +3,7 @@
 // Operador de desestructuración
 
 function tempMinMax() {
-    return [-1, 20];
+  return [-1, 20];
 }
 
 let temp = tempMinMax();
@@ -12,10 +12,6 @@ let tempMax = temp[1];
 
 console.log(tempMin, tempMax); // Funciona, forma ES5
 
-// Reescribe el código de arriba usando ES6
+// TODO: No modifiques la función. Modificar el código solamente a partir de aquí. Usa el operador de desestructuración para asignar el valor que retorna la función tempMinMax a las variables tempDestructMin y tempDestructMax
 
-// TODO: Usa el operador de destrcturación para asignar el valor de la primera posición del array a tempDestructMin, y la segunda posición del array a tempDesustructMax
-
-// console.log(tempDestructMin, tempDestructMax) // -1 20
-
-
+//console.log(tempDestructMin, tempDestructMax) // -1 20
