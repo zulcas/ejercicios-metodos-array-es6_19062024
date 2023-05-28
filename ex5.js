@@ -8,7 +8,7 @@ let paciente = {
     ultimaVisita: '4/4/2022 18: 32: 19'
 }
 
-// A) COPIA el paciente usando el operador de spread a un NUEVO objeto de nombre 'pacienteCopiado'; pero añade una nueva propiedad que se diga 'localidad'; y asignale cualquier valor
+// A) COPIA el paciente usando el operador de spread a un NUEVO objeto de nombre 'pacienteCopiado'; pero añade una nueva propiedad que se llame 'localidad'; y asignale cualquier valor
 
 // console.log(pacienteCopiado) ;
 /**
