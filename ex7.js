@@ -2,7 +2,7 @@
 /** Prueba de implementar dos versiones: 1. crando un objeto de 0 con las propiedades que se piden. 2. usa el opreador de rest (...) par copiar las propiedades del objeto 'persona' y añade la propiedad 'edad'  */
 function calcularEdad(persona) {
 
-    const currentYear = new Date().currentDate.getFullYear();
+    const currentYear = new Date().getFullYear();
     let newPerson = {};
 
     // Modificar a partir de aqui
