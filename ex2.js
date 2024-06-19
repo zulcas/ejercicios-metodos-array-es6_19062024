@@ -8,9 +8,9 @@ let puedesPasar = false;
 let edad = 21;
 
 if (edad >= 18) {
-    let puedesPasar = true;
+    puedesPasar = true;
 }
 
 console.log(puedesPasar) // Debería ser true pero vale false. ¿por qué?
 
-// PREGUNTA: ¿Por qué no se actualiza correctamente la variable 'puedesPasar'?
+// PREGUNTA: ¿Por qué no se actualiza correctamente la variable 'puedesPasar'? porque la estabas volviendo a declarar dentro del if y por tanto ya no usabamos variable global sino local y se perdia fuera del entorno del if. 

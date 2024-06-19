@@ -3,7 +3,10 @@
 function calcularEdad(persona) {
 
     const currentYear = new Date().getFullYear();
-    let newPerson = {};
+    let newPerson = {
+        ...persona, 
+        edad: currentYear-persona.nacimiento
+    };
 
     // Modificar a partir de aqui
 
