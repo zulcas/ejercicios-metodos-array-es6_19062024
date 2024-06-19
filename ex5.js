@@ -33,7 +33,9 @@ let pacientes = [{
     ultimaVisita: '4/4/2022 18: 32: 19'
 }];
 
-// B) COPIA el array de pacientes Y AÑADE un nuevo paciente. USa el operador de 'spread' para realizar la copia, NO HAGAS PUSH. Guarda el array nuevo en una variable de nombre 'pacientesActualizados'
+// B) COPIA el array de pacientes Y AÑADE un nuevo paciente. USa el operador de 'spread' para realizar la copia, NO HAGAS PUSH. Guarda el array nuevo en una variable de nombre 'pacientesActualizados'. 
+
+const pacientesActualizados = []; // TODO
 
 // console.log(pacientesActualizados)
 
